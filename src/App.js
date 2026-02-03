@@ -23,7 +23,7 @@ function App() {
   const fileInputRef = useRef(null);
 
   // Backend URL - LOCAL बैकएंड use करो
-  const BACKEND_URL = 'http://localhost:5000'; // ये local backend URL है
+  const BACKEND_URL = 'https://speech-backend-henna.vercel.app/'; // ये local backend URL है
   const API_BASE_URL = `${BACKEND_URL}/api/speech`;
 
   // ========== DATABASE HISTORY FETCH ==========
